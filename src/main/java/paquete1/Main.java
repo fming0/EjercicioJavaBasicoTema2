@@ -4,8 +4,8 @@ import java.util.Scanner;
 
 public class Main {
     public static float productomasIVA(float producto){
-        float IVA = 0.16f;
-        float result = producto*IVA;
+        float IVA = producto*0.16f;
+        float result = producto+IVA;
         return result;
     }
     public static void main(String[] args) {
