@@ -13,7 +13,5 @@ public class Main {
         System.out.print("Digite el valor de tu producto :");
         float valorProducto = escaner.nextFloat();
         System.out.println("El valor del Producto mas el IVA es :"+ productomasIVA(valorProducto));
-
-
     }
 }
